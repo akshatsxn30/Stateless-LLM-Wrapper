@@ -76,7 +76,6 @@ API Documentation
 FastAPI automatically generates API documentation. Visit:
 
     1. Swagger UI: http://localhost:9000/docs
-    2. ReDoc: http://localhost:9000/redoc
 
 Future Enhancements
 
