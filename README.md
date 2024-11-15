@@ -28,7 +28,7 @@ System Requirements
 Setup
 
 1. Clone the Repository
-   git clone https://github.com/your-username/phi3.5-chatbot.git  
+   git clone https://github.com/akshatsxn30/Stateless-LLM-Wrapper.git  
    cd phi3.5-chatbot
 
 2. Run the Application Using Docker Compose
