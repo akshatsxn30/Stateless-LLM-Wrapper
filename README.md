@@ -60,11 +60,11 @@ The backend provides an API to interact with the chatbot programmatically.
 1. Endpoint: POST /query
 2. Example Request:
    {  
-    "query": "What is the weather today?"  
+    "query": "Hi how are you?"  
    }
 3. Example Response:
    {  
-    "response": "The weather today is sunny and warm."  
+    "response": "I'm Phi, an artificial intelligence, so I don't have feelings, but I'm fully operational and ready to assist you! How can I help you today?"  
    }
 
 Docker Configuration
