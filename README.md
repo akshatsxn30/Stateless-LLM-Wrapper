@@ -36,7 +36,7 @@ Setup
 
 3. Access the Application
    Streamlit UI: Navigate to http://localhost:8501 to chat with the model.
-   FastAPI Docs: Visit http://localhost:8000/docs for the API documentation.
+   FastAPI Docs: Visit http://localhost:9000/docs for the API documentation.
 
 Project Structure
 
@@ -68,15 +68,15 @@ The backend provides an API to interact with the chatbot programmatically.
    }
 
 Docker Configuration
-Docker Compose Services 1. phi3.5 Model Service: Runs the Ollama model on port 12341. 2. FastAPI Service: Handles backend API requests on port 8000. 3. Streamlit Service: Frontend UI on port 8501.
+Docker Compose Services 1. phi3.5 Model Service: Runs the Ollama model on port 12341. 2. FastAPI Service: Handles backend API requests on port 9000. 3. Streamlit Service: Frontend UI on port 8501.
 
 Dockerfile 1. The Dockerfile is configured to set up the application with the required dependencies.
 
 API Documentation
 FastAPI automatically generates API documentation. Visit:
 
-    1. Swagger UI: http://localhost:8000/docs
-    2. ReDoc: http://localhost:8000/redoc
+    1. Swagger UI: http://localhost:9000/docs
+    2. ReDoc: http://localhost:9000/redoc
 
 Future Enhancements
 
