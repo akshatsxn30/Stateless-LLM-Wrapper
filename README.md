@@ -39,6 +39,7 @@ Setup
    FastAPI Docs: Visit http://localhost:8000/docs for the API documentation.
 
 Project Structure
+
 ├── streamlit_app.py # Streamlit UI for chatbot interaction.  
  ├── main.py # FastAPI backend application.  
  ├── Dockerfile # Dockerfile for building the app image.  
