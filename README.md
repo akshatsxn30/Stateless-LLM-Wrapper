@@ -29,7 +29,7 @@ Setup
 
 1. Clone the Repository
    git clone https://github.com/akshatsxn30/Stateless-LLM-Wrapper.git  
-   cd phi3.5-chatbot
+   cd Stateless-LLM-Wrapper
 
 2. Run the Application Using Docker Compose
    docker-compose up --build
