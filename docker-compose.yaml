@@ -1,0 +1,28 @@
+version: '3.3'
+
+networks:
+  app-network:
+    driver: bridge
+
+services:  
+  fastapi:
+    build: .
+    container_name: fastapi
+    ports:
+      - "9000:9000"  # Expose FastAPI app on port 9000
+    networks:
+      - app-network
+    restart: always
+
+  streamlit:
+    build: .
+    container_name: streamlit
+    ports:
+      - "8501:8501"  # Expose Streamlit UI on port 8501
+    environment:
+      - API_URL=http://fastapi:9000/query  
+    depends_on:
+      - fastapi
+    networks:
+      - app-network
+    restart: always
